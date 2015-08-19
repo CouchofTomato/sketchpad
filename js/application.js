@@ -1,4 +1,5 @@
 var numberOfSquares = 16;
+var width = 800 / numberOfSquares;
 
 $(document).ready(function() {
 	for(var i=0; i<numberOfSquares; i++) {
@@ -6,4 +7,6 @@ $(document).ready(function() {
 			$('#container').append($('<div class="square-div"></div>'));
 		}
 	}
+	$('.square-div').css({'width': width,
+						'height': width});
 });
