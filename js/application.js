@@ -9,6 +9,7 @@ var drawGrid = function(num) {
 	$('#container').append(text);
 	$('.square-div').css({'width': width,
 						'height': width});
+	$('.div1').addClass('grid');
 }
 
 var normal = function() {
