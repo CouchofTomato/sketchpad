@@ -1,37 +1,70 @@
+body {
+	background: #EEEEEE;
+}
 
+h1 {
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-size: 60px;
+	padding: 10px;
+	color: #5C5C5C;
+	text-shadow: 2px 2px 4px #5C5C5C;
+	margin-bottom: 10px;
+}
 
-#clear-button {
+.button {
 	margin-bottom: 20px;
-	width: 70px;
+	width: 150px;
 	height: 40px;
 	font-size: 18px;
 	font-family: helvetica;
+	box-shadow: 2px 2px 8px #333333;
+}
+
+#button-wrapper {
+	text-align: center;
 }
 
 #container-wrapper {
-	width: 650px;
 	margin: auto;
 }
 
-.row {
-	outline: 1px solid white;
-    overflow: hidden;
-    clear: both;
+#container {
+	margin: auto;
+	width: 650px;
+	clear: both;
 }
 
-.square-div {
-	background: rgb(0,0,0);
-	opacity: 1;
-    outline: 1px solid white;
+.div1 {
     float: left;
 }
 
-/*
-.background {
-	background: rgba(0,0,0,0);
+.square-div {
+	background: #D6D6D6;
+    width: 50px;
+    height: 50px;
+    float: left;
 }
 
-.background2 {
-	background: rgba(0,0,0,1.0);
+#form-div-wrapper {
+	text-align: center;
+	padding: 5px 0 20px;
 }
-*/
+
+#row-input {
+	width: 250px;
+	height: 25px;
+	box-shadow: 0px 0px 10px #4D94FF;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+.grid {
+	outline: 1px solid black;
+}
+
+#grid-button {
+	height: 32px;
+	margin-bottom: 5px;
+}

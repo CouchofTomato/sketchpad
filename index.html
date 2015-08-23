@@ -7,9 +7,19 @@
 </head>
 <body>
 	<div id="wrapper">
-		<h1>Sketchpad</h1>
+		<h1>SKETCHPAD</h1>
+		<div id="form-div-wrapper">
+	        <input type="text" id="row-input" placeholder="Enter number of rows required..." required>
+	        <input type="button" id="grid-button" class="button" value="Toggle Grid">
+	    </div>
 		<div id="container-wrapper">
-				<input type="button" id="clear-button" value="Clear">
+			<div id="button-wrapper">
+				<input type="button" id="normal-button" class="button" value="Normal Mode">
+				<input type="button" id="random-button" class="button" value="Random Colour">
+				<input type="button" id="trail-button" class="button" value="Trail Mode">
+				<input type="button" id="mouse-button" class="button" value="Mouse Click">
+				<input type="button" id="opacity-button" class="button" value="Opacity Mode">
+			</div>
 			<div id="container"></div>
 		</div>
 	</div>
